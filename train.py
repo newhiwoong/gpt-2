@@ -224,7 +224,7 @@ def main():
             maketree(os.path.join(SAMPLE_DIR, args.run_name))
             with open(
                     os.path.join(SAMPLE_DIR, args.run_name,
-                                 'samples-{}').format(counter), 'w') as fp:
+                                 'samples-{}').format(counter), 'w', encoding='utf8') as fp:
                 fp.write('\n'.join(all_text))
 
         def validation():
