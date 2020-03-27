@@ -9,6 +9,8 @@ We have currently released small (117M parameter) and medium (345M parameter) ve
 
 See more details in our [blog post](https://blog.openai.com/better-language-models/).
 
+TensorFlow 2.0 is not supported.
+
 ## Usage
 
 This repository is meant to be a starting point for researchers and engineers to experiment with GPT-2.
